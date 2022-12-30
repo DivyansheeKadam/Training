@@ -14,3 +14,5 @@ const Phone=1234567899;
 console.log(Phone);
 const Gender="M";
 console.log(Gender);
+const married=true;
+console.log(married);
