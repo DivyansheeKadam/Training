@@ -1,9 +1,7 @@
 // "1. Take 2 numbers and print the smallest one amongst them
         const a = 20;
-        const b = 40;
-        let c = " ";
+        const b = 10;
         if (a < b) {
-            c += a
-            console.log(c+" its smallest number");
+            console.log(a + " its smallest number");
         } else  
-            console.log(b+"its smallest no.");
+            console.log(b + " its smallest number");
