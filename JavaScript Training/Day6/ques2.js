@@ -3,7 +3,7 @@
 //for loop  
 const fibbonaciForLoop = (a, b) => {
     let c;
-for( var i = 0; i < 10; i++) {
+for( let i = 0; i < 10; i++) {
  c = a + b;
  a = b;
  b = c;
