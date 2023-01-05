@@ -4,8 +4,7 @@
         const z = 25;
         let store="";
         if (x > y && x > z) {   
-            store += x;
-            console.log(c + " its biggest number");
+            console.log(x + " its biggest number");
         } else if (y > z) {
             console.log(y + "its biggest number");
         } else console.log(z + "its biggest number");
