@@ -34,14 +34,3 @@ const findSumFor=(n)=>{
         return sum;
   };
   console.log(`"for Loop" ${findSumFor(10)}`);
-   
-  // For in Loop
-  const findSumForin = (n) => {
-    let sum = 0;
-  
-      for (var d in n) {
-          sum = n + d;
-      }  
-      return sum;
-  }
-  console.log(`"For in Loop" ${findSumForin(10)}`);
