@@ -1,0 +1,10 @@
+{ "employees": [
+    {"id":1, "name": "Ram", "email": "ram@gmail.com", "phoneNo": 9876543211, "salary": 700000, "address": "Indore(M.P.)"},
+    {"id":2, "name": "Sita",  "email": "sita@gmail.com",  "phoneNo": 8669841233, "salary": 650000, "address": "Bhopal(M.P.)"},
+    {"id":3, "name": "Mohan", "email": "mohan@gmail.com", "phoneNo": 1587954133, "salary": 300000, "address": "Dhar(M.P.)"},
+    {"id":4, "name": "Rohan", "email": "rohan@gmail.com", "phoneNo": 1236547896, "salary": 550000, "address": "Ujjain(M.P.)"},
+    {"id":5, "name": "sohan", "email": "sohan@gmail.com", "phoneNo": 3236547896, "salary": 400000, "address": "Ujjain(M.P.)"},
+    {"id":6, "name": "Mohit", "email": "mohit@gmail.com", "phoneNo": 4698514653, "salary": 700000, "address": "Indore(M.P.)"},
+    {"id":7, "name": "Geeta", "email": "geeta@gmail.com", "phoneNo": 9236547896, "salary": 550000, "address": "Bhopal(M.P.)"}
+]
+}
