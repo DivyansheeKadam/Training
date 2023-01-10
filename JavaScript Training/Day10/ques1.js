@@ -1,6 +1,6 @@
 //"- Add a js class called Employee and create methods in it to sort employees by different paramters and to filter by age.
-class example {
-    constructor(employee){
+class Example {
+    constructor (employee) {
         this.employee=employee;
             };
     sum(){
@@ -14,5 +14,5 @@ const employee=[{name: "Ram", age: 25},
 {name: "Mohan", age: 52},
 {name: "Rohan", age: 55},
 {name: "Shyam", age: 40}];
-let a = new example(employee);
+let a = new Example(employee);
 a.sum();
