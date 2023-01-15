@@ -3,22 +3,19 @@
         const grade = 92;
             switch (true) {
                case (grade >= 90 && grade <= 100):
-                 console.log("Good job");
+                 console.log("A");
                break;
-                case (grade >= 80 && grade < 90): 
-                 console.log("Pretty good");
-               break;
-               case (grade >= 70 && grade < 80):
-                 console.log("good");
+                case (grade >= 70 && grade < 90): 
+                 console.log("B");
                break;
                case (grade >= 60 && grade < 70):
-                 console.log("Passed");
+                 console.log("D");
                break;
                case (grade >= 50 && grade < 60):
                  console.log("Not so good");
                break;
                case (grade > 50 ):
-                 console.log("Failed");
+                 console.log("F");
                break;
                default:  console.log("Unknown grade")
             };
