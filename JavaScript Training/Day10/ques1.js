@@ -1,11 +1,13 @@
 //"- Add a js class called Employee and create methods in it to sort employees by different paramters and to filter by age.
 class Example {
     constructor(employee){
-        this.employee=employee;
+        this.employee = employee;
             };
-    sum(){
-        this.employee.sort((x, y) => { 
-          (x.age > y.age) ? 1 : (x.age < y.age) ? -1 : 0;
+    sum(age){
+        this.employee.sort((a, b) => {
+            if (a[age] < b[age]) return -1;
+            if (a[age] > b[age]) return 1;
+            return 0;
         });
         console.log(this.employee);
         };
@@ -16,4 +18,4 @@ const employee=[{name: "Ram", age: 25},
 {name: "Rohan", age: 55},
 {name: "Shyam", age: 40}];
 let a = new Example(employee);
-a.sum();
+a.sum("age");
