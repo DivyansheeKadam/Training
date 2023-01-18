@@ -1,13 +1,9 @@
 // - Create another promisified function that sorts this employee list from above response by name. Chain it to above promise"
 const funOne = (empName) => {
-   return new Promise ((resolve, reject)=>{
-            if(empName){
-                resolve(empName)
-            } else {
-                reject("Error:- name is dimiss...")
-            }
+   return new Promise ((resolve)=>{
+            resolve(empName);
     });
-}
+};
 const funTwo = (employees, empName) => {
     return new Promise ((resolve, reject) => {
         if(empName){
@@ -24,9 +20,7 @@ const funTwo = (employees, empName) => {
         } else {
         reject("Error:- empName error")
         };
-
     });
-
 };
 const employees=[{name: "Ram", email: "ram@gmail.com", phoneNo: 9876543211, salary: 40000, address: "Indore(M.P.)"},
           {name: "Sita",  email: "sita@gmail.com",  phoneNo: 8669841233, salary: 30000, address: "Bhopal(M.P.)"},
@@ -35,4 +29,4 @@ const employees=[{name: "Ram", email: "ram@gmail.com", phoneNo: 9876543211, sala
 
           funOne("name").then(result => { return funTwo(employees, result)})
                 .then(result=> console.log(result))
-        .catch(err => console.log(err))
+                .catch(err => console.log(err));
