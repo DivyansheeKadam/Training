@@ -14,7 +14,7 @@ switch (true) {
    case (grade >= 50 && grade < 60):
      console.log("D");
    break;
-   case (grade > 50 ):
+   case (grade < 50 ):
      console.log("F");
    break;
    default:  console.log("Unknown grade")
