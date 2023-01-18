@@ -10,7 +10,6 @@ let emp= '{ "employees" : [' +
 
 const employeesAge = () => {
     let obj = JSON.parse(emp);
-    //console.log(obj.employees)
     (obj.employees).filter((age) => {
         try {
             if (age.age / null) {
