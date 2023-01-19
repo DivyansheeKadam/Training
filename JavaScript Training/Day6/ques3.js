@@ -5,6 +5,6 @@ Email: "ram@gmail.com",
 PhoneNo: 9876543211, 
 Address: "Indore(M.P.)", 
 age: 22 };
-for (var key in obj) {
+for (let key in obj) {
     console.log(`${key}  ${obj[key]}`)
 };
