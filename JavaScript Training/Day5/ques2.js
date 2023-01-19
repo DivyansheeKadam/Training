@@ -2,9 +2,8 @@
         const x = 20;
         const y = 30;
         const z = 25;
-        let store="";
         if (x > y && x > z) {   
-            console.log(x + " its biggest number");
+            console.log(`"Biggest number" ${x}`);
         } else if (y > z) {
-            console.log(y + "its biggest number");
-        } else console.log(z + "its biggest number");
+            console.log(`"Biggest number" ${y}`);
+        } else console.log(`"Biggest number" ${z}`);
