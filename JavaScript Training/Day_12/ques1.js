@@ -10,10 +10,9 @@ let emp= '{ "employees" : [' +
 
 const employeesAge = () => {
     let obj = JSON.parse(emp);
-    //console.log(obj.employees)
-    (obj.employees).filter((age) => {
+       (obj.employees).filter((age) => {
         const check = age.age / null
-        console.log(isFinite(check))
+       // console.log(isFinite(check))
         try {
             if (!isFinite(check)) {
                 throw ("Divide by null");
