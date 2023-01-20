@@ -1,9 +1,8 @@
 //"- Add a js class called Employee and create methods in it to sort employees by different paramters and to filter by age.
 class Example {
-    constructor(employee, name){
+    constructor(employee){
         this.employee = employee;
-        this.name = name
-            };
+        };
     emp(arg){
          this.employee.sort((a, b) => {
             if (a[arg] < b[arg]) return -1;
