@@ -2,12 +2,12 @@
     function example (employees) {
         return new Promise((resolve, reject) => {
         setTimeout(() => {
-                if(employees){
+                if (employees) {
                         resolve(employees);
                 } else {
                         reject("Data Error");
                 }
-        },(Math.random*2)+5000);
+        },(Math.random * 2) + 5000);
        }).then(result => console.log(result))
        .catch(err => console.log(err));
 };
