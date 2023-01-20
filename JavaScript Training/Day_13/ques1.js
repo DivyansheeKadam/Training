@@ -4,11 +4,12 @@ const example = (employees) => {
         let time = (Math.random()*2)+1000
         setTimeout(() => {
         if(employees){
-            resolve(employees[0]);
+            resolve(employees)
         } else {
-            reject("Data Error");
+            reject("Data Error")
         }}, time);
-      
+      }).then((result) => {
+            return result[0];
       }).then((result) => {
             console.log(result);  
             return employees[1];
@@ -18,7 +19,8 @@ const example = (employees) => {
       }).then(function(result) {
             console.log(result);
             return employees[3];
-      }).catch((err)=>{
+      }).then((result => console.log(result)))
+      .catch((err)=>{
             console.log(err);
       });
     
