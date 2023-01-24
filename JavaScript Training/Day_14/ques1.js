@@ -7,7 +7,7 @@
                 } else {
                         reject("Data Error");
                 }
-        },(Math.random * 2) + 5000);
+        },(Math.random * 2) + 1000);
        }).then(result => console.log(result))
        .catch(err => console.log(err));
 };
